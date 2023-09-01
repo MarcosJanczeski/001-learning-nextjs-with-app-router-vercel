@@ -1,3 +1,4 @@
 export default function Page() {
-  return <h1>Hello, Settings Dashboard Page!</h1>
+  return <h1>app/dashboard/settings/page.jsx</h1>
+
 }
