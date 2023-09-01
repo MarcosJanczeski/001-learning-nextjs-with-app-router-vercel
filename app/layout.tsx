@@ -1,9 +1,18 @@
-export default function RootLayout({ children }: { 
-  children: React.ReactNode 
+import styles from './styles.module.scss'
+
+export default function RootLayout({ children }: {
+  children: React.ReactNode
 }) {
-  return (
+  return <>
     <html lang="pt-BR">
-      <body>{children}</body>
+      <head>
+        <title>NEXTJS - APP ROUTER</title>
+      </head>
+      <body>
+        <small>app layout</small>
+        {children}
+        <small>app layout</small>
+      </body>
     </html>
-  )
+  </>
 }
